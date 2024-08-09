@@ -57,8 +57,8 @@ def save_results_to_csv(results, output_file):
         writer.writerows(results)
 
 def main():
-    fasta_file_path = '/Users/yding/Downloads/9311.IGDBv1.Allset.trans.fasta'
-    csv_file_path = '/Users/yding/Downloads/genes_info.csv'
+    fasta_file_path = 'file.fasta'
+    csv_file_path = '/path/'
 
     results = extract_gene_info_from_fasta(fasta_file_path)
     save_results_to_csv(results, csv_file_path)
